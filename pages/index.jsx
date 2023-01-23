@@ -1,5 +1,6 @@
 import Wrapper from "@/components/wrapper/Wrapper";
 import { Heading, Paragraph, Span } from "@/components/ui/Typography";
+import Anchor from "@/components/ui/Anchor";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         interested in building decentralised systems, fostering open knowledge
         and giving people tools to better coordinate.
       </Span>
+      <Anchor url={"https://www.google.com"}>Get In Touch</Anchor>
+      <Anchor url={"mailto:email@example.com"}>Litepaper</Anchor>
       <h1 className="text-3xl font-bold underline">Even music. In progress</h1>
     </Wrapper>
   );

@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#111827", // dark gray
+        secondary: "#9361FF", // even purple
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
@@ -32,6 +33,9 @@ module.exports = {
       },
       maxWidth: {
         "6xl": "70rem",
+      },
+      textUnderlineOffset: {
+        3: "0.1563rem",
       },
     },
   },
