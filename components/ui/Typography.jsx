@@ -8,7 +8,7 @@ export function Heading({ children }) {
 
 export function Paragraph({ children }) {
   return (
-    <p className="text-sm font-medium tracking-tight sm:text-base xl:text-lg sm:-tracking-thinnest leading-4.25 sm:leading-4.75 xl:leading-5.5 text-black">
+    <p className="text-sm font-medium -tracking-tight sm:text-base xl:text-lg sm:-tracking-thinnest leading-4.25 sm:leading-4.75 xl:leading-5.5 text-black">
       {children}
     </p>
   );
@@ -16,7 +16,7 @@ export function Paragraph({ children }) {
 
 export function Span({ children }) {
   return (
-    <span className="font-medium sm:text-sm text-xs tracking-tight leading-3.75 sm:leading-4.25 text-black">
+    <span className="font-medium sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 text-black">
       {children}
     </span>
   );
