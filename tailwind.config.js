@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
       },
+      maxWidth: {
+        '6xl': "70rem"
+      }
     },
   },
   plugins: [],
