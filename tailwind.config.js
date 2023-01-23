@@ -30,6 +30,9 @@ module.exports = {
         4.75: "1.1875rem", // 19px
         5.5: "1.375rem", // 22px
       },
+      maxWidth: {
+        "6xl": "70rem",
+      },
     },
   },
   plugins: [],

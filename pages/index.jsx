@@ -1,8 +1,9 @@
+import Wrapper from "@/components/wrapper/Wrapper";
 import { Heading, Paragraph, Span } from "@/components/ui/Typography";
 
 export default function Home() {
   return (
-    <>
+    <Wrapper>
       <Heading>
         A decentralised protocol for music artists, fans and collective forms of
         value exchange
@@ -20,6 +21,6 @@ export default function Home() {
         and giving people tools to better coordinate.
       </Span>
       <h1 className="text-3xl font-bold underline">Even music. In progress</h1>
-    </>
+    </Wrapper>
   );
 }
