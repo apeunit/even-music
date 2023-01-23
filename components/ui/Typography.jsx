@@ -16,7 +16,7 @@ export function Paragraph({ children }) {
 
 export function Span({ children }) {
   return (
-    <span className="font-medium sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 text-black">
+    <span className="block font-medium sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 text-black">
       {children}
     </span>
   );
