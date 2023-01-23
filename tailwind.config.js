@@ -10,9 +10,16 @@ module.exports = {
     extend: {
       colors: {
         primary: "#111827", // dark gray
+        accent: "#9361ff" //purple
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
+      },
+      spacing: {
+        17.5: '4.375rem',//70px,
+        44.5: '11.125rem',// 178px
+        64.5: '16.125rem',//258px
+
       },
       fontSize: {
         "1xl": "1.4375rem", // 23px
