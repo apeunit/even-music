@@ -5,10 +5,10 @@ A decentralised protocol for music artists, fans and collective forms of value e
 Even wants to fundamentally change the way artists and their communities interact. Even aims
 to reshape the future of music through deeper collaboration of
 all participants in the ecosystem.
-### Prerequisute
+### Prerequisite
 - [Nodejs](https://nodejs.org/en/download/)
 ### Getting started
-First, run the development server:
+run the development server:
 1. Clone the project
 ```bash
 git clone https://github.com/apeunit/even-music.git
