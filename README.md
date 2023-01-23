@@ -9,15 +9,15 @@ all participants in the ecosystem.
 - [Nodejs](https://nodejs.org/en/download/)
 ### Getting started
 First, run the development server:
-1. clone the project
+1. Clone the project
 ```bash
 git clone https://github.com/apeunit/even-music.git
 ```
-2. install packages
+2. Install packages
 ```bash
 npm install
 ```
-3. run local server
+3. Run local server
 ```bash
 npm run dev
 ```
