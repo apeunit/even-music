@@ -19,9 +19,10 @@ module.exports = {
         "3.5xl": "2rem", // 32px
       },
       letterSpacing: {
-        thin: "0.0859375rem", // 1px
-        thinner: "0.0625rem", // 1.375px
-        thinnest: "0.1125rem", // 1.8px
+        tight: "0.025rem", // 0.4px
+        thinnest: "0.0625rem", // 1px
+        thinner: "0.0859375rem", // 1.375px
+        thin: "0.1125rem", // 1.8px
       },
       lineHeight: {
         3.75: "0.9375rem", // 15px
