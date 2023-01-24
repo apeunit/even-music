@@ -11,8 +11,8 @@ export default function Even() {
       <div className="max-w-87.5 sm:max-w-113.05 mx-auto sm:mx-0 xl:max-w-159.5 mt-10 relative">
         <div className="font-medium text-lg sm:text-1xl xl:text-3.5xl -tracking-thinnest sm:-tracking-thinner xl:-tracking-thin leading-5.5 sm:leading-7 xl:leading-10 text-primary">
           A decentralised protocol for music artists, fans and{" "}
-          <div className="text-accent underline  decoration-4 underline-offset-2 relative inline-block">
-            collective forms
+          <div className="text-accent underline  relative inline-block">
+            <span className="inline-block w-max underline decoration-4 underline-offset-2 ">collective forms</span>
             <div className="flex flex-col left-3.2 sm:left-5.6 xl:left-18.4 items-center absolute translate-y-full bottom-0 xl:bottom-0.75">
               <div className="w-2.5 h-15.22 sm:h-17.9 relative xl:h-20.75">
                 <Image src="/svg/line.svg" fill className="" alt="line" />
