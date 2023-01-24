@@ -8,24 +8,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      aspectRatio: {
+        logo: "60/23"
+      },
       colors: {
         primary: "#111827", // dark gray
         accent: "#9361ff" //purple
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
-      },
-      spacing: {
-        0.75: "0.1875rem", // 3px
-        3.2: "0.8rem", // 12.8px
-        5.6: "1.4rem", // 22.4px
-        15.22: "3.8062rem", // 60.9px
-        17.2: "4.3rem", // 68.8px
-        17.9: "4.4938rem", // 71.9px
-        18.4: "4.6rem", // 73.6px
-        20.75: "5.1875rem", // 83px
-        45.25: "11.3125rem", // 181px
-        53.25: "13.3125rem", // 213px
       },
       fontSize: {
         "1xl": "1.4375rem", // 23px
@@ -53,9 +44,16 @@ module.exports = {
         45.25: "11.3125rem", // 181px
         53.25: "13.3125rem", // 213px
       },
-      aspectRatio: {
-        logo: "60/23"
-      }
+      spacing: {
+        0.75: "0.1875rem", // 3px
+        15.22: "3.8062rem", // 60.9px
+        17.2: "4.3rem", // 68.8px
+        17.9: "4.4938rem", // 71.9px
+        18.4: "4.6rem", // 73.6px
+        20.75: "5.1875rem", // 83px
+        45.25: "11.3125rem", // 181px
+        53.25: "13.3125rem", // 213px
+      },
     },
   },
   plugins: [],
