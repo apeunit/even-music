@@ -6,7 +6,7 @@ export default function Even() {
   return (
     <div>
       <div className="relative w-full aspect-logo">
-        <Image src="/svg/even.svg" fill alt="logo" />
+        <Image src="/svg/even.svg" fill alt="logo" priority />
       </div>
       <div className="max-w-87.5 sm:max-w-113.05 mx-auto sm:mx-0 xl:max-w-159.5 mt-10 relative">
         <div className="font-medium text-lg sm:text-1xl xl:text-3.5xl -tracking-thinnest sm:-tracking-thinner xl:-tracking-thin leading-5.5 sm:leading-7 xl:leading-10 text-primary">
