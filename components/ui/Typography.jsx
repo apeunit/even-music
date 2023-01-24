@@ -16,7 +16,7 @@ export function Paragraph({ children }) {
 
 export function Span({ children, secondary }) {
   return (
-    <span className={`block font-medium sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 ${secondary ? 'text-accent' : 'text-black'}`}>
+    <span className={`block font-medium sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 ${secondary ? 'text-secondary' : 'text-black'}`}>
       {children}
     </span>
   );

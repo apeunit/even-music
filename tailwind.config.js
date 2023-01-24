@@ -13,7 +13,7 @@ module.exports = {
       },
       colors: {
         primary: "#111827", // dark gray
-        accent: "#9361ff" //purple
+        secondary: "#9361FF", // even purple
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
@@ -53,6 +53,9 @@ module.exports = {
         20.75: "5.1875rem", // 83px
         45.25: "11.3125rem", // 181px
         53.25: "13.3125rem", // 213px
+      },
+      textUnderlineOffset: {
+        3: "0.1563rem",
       },
     },
   },
