@@ -4,7 +4,7 @@ import { Span } from "../ui/Typography";
 
 export default function Even() {
   return (
-    <div className="mt-17.5 sm:mt-44.5 xl:mt-64.5">
+    <div>
       <div className="relative w-full aspect-logo">
         <Image src="/svg/even.svg" fill alt="logo" />
       </div>
