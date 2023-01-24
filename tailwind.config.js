@@ -16,7 +16,7 @@ module.exports = {
         secondary: "#9361FF", // even purple
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans],
+        sans: ["var(--font-inter)", ...fontFamily.sans], //add Inter font-family from google fonts as default
       },
       fontSize: {
         "1xl": "1.4375rem", // 23px
@@ -35,7 +35,9 @@ module.exports = {
         5.5: "1.375rem", // 22px
       },
       maxWidth: {
-        "6xl": "70rem",
+        48.25: "12.0625rem", // 193px
+        54.75: "13.6875rem", // 219px
+        "6xl": "70rem", // 1120px
         87.5: "21.875rem", // 350px
         113.05: "28.2638rem", // 452.22px
         159.5: "39.875rem", // 638px
@@ -55,7 +57,16 @@ module.exports = {
         53.25: "13.3125rem", // 213px
       },
       textUnderlineOffset: {
-        3: "0.1563rem",
+        3: "0.1563rem", // 2.5px
+      },
+      spacing: {
+        2.5: "0.625rem", // 10px
+        4.25: "1.0625rem", // 17px
+        13.25: "3.3125rem", // 53px
+        64.5: "16.125rem", // 258px
+      },
+      borderWidth: {
+        0.5: "0.03125rem", // 0.5px
       },
     },
   },
