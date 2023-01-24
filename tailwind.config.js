@@ -13,7 +13,7 @@ module.exports = {
         secondary: "#9361FF", // even purple
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans],
+        sans: ["var(--font-inter)", ...fontFamily.sans], //add Inter font-family from google fonts as default
       },
       fontSize: {
         "1xl": "1.4375rem", // 23px
@@ -32,6 +32,8 @@ module.exports = {
         5.5: "1.375rem", // 22px
       },
       maxWidth: {
+        48.25: "12.0625rem", // 193px
+        54.75: "13.6875rem", // 219px
         "6xl": "70rem", // 1120px
       },
       textUnderlineOffset: {
