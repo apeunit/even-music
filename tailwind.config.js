@@ -32,10 +32,19 @@ module.exports = {
         5.5: "1.375rem", // 22px
       },
       maxWidth: {
-        "6xl": "70rem",
+        "6xl": "70rem", // 1120px
       },
       textUnderlineOffset: {
-        3: "0.1563rem",
+        3: "0.1563rem", // 2.5px
+      },
+      spacing: {
+        2.5: "0.625rem", // 10px
+        4.25: "1.0625rem", // 17px
+        13.25: "3.3125rem", // 53px
+        64.5: "16.125rem", // 258px
+      },
+      borderWidth: {
+        0.5: "0.03125rem", // 0.5px
       },
     },
   },
