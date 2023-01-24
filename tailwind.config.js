@@ -25,6 +25,11 @@ module.exports = {
         thinner: "0.0859375rem", // 1.375px
         thin: "0.1125rem", // 1.8px
       },
+      spacing: {
+        36.25: "9.0625rem", // 145px
+        45.25: "11.3125rem", // 181px
+
+      },
       lineHeight: {
         3.75: "0.9375rem", // 15px
         4.25: "1.0625rem", // 17px
@@ -32,6 +37,7 @@ module.exports = {
         5.5: "1.375rem", // 22px
       },
       maxWidth: {
+        100: "25rem", // 400px
         "6xl": "70rem",
       },
       textUnderlineOffset: {
