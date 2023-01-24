@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
+.font-variation {
+    font-variation-settings: "wght" 450;
+}
 @tailwind utilities;
