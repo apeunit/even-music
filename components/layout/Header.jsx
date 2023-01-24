@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <div className="flex-1 sm:flex-initial xl:flex-1 flex flex-col border-l-0.5 border-black pt-5 pl-5 gap-y-2.5 sm:pl-2.5 sm:pt-10 xl:pl-5 xl:gap-y-5">
           <Anchor url={"https://evenmusic.co/"}>Litepaper</Anchor>
-          <Anchor url={"mailto:email@example.com"}>Get In Touch</Anchor>
+          <Anchor url={"mailto:even@apeunit.com"}>Get In Touch</Anchor>
         </div>
       </div>
     </div>
