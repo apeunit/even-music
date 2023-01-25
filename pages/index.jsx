@@ -3,6 +3,7 @@ import Description from "@/components/sections/Description";
 import Header from "@/components/layout/Header";
 import Even from "@/components/sections/Even";
 import Head from "next/head";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Header />
         <Even />
         <Description />
+        <Footer />
       </Wrapper>
     </>
   );
