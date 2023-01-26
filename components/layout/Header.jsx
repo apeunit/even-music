@@ -3,7 +3,7 @@ import Anchor from "@/components/ui/Anchor";
 
 export default function Header() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mb-13.25 md:mb-44 xl:mb-64.5">
+    <div className="font-variation grid grid-cols-1 md:grid-cols-2 mb-13.25 md:mb-44 xl:mb-64.5">
       <div className="md:col-start-2 flex flex-wrap md:flex-nowrap">
         <div className="md:border-l-0.5 border-black pt-5 pr-0.5 md:pr-2.5 pb-4.25 md:pl-2.5 md:pt-10 md:pb-0.5 xl:pl-5 xl:pr-10 xl:pb-0">
           <div className="max-w-48.25 md:max-w-54.75 pr-4.5 md:pr-3">
