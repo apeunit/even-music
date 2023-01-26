@@ -3,7 +3,7 @@ import Anchor from "../ui/Anchor";
 
 export default function Footer() {
     return (
-        <div className="grid sm:grid-cols-2 mt-20 sm:mt-25">
+        <div className="font-variation grid sm:grid-cols-2 mt-20 sm:mt-25">
             <div className="flex">
                 <div className="flex-1 pt-0.5 sm:pt-0.75 xl:pt-0 pl-0 xl:pl-10.75 pr-0 sm:pr-2">
                     <div className="max-w-none sm:max-w-48.5">
