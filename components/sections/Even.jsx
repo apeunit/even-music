@@ -1,6 +1,5 @@
 import Image from "next/image";
-import React from "react";
-import { Span } from "../ui/Typography";
+import { Span } from "@/components/ui/Typography";
 
 export default function Even() {
   return (
@@ -15,7 +14,7 @@ export default function Even() {
             <span className="inline-block w-max underline decoration-4 underline-offset-2 ">
               collective forms
             </span>
-            <div className="flex flex-col left-2 sm:left-4 xl:left-[4.7375rem] xl:left-17.2- items-center absolute translate-y-full bottom-0 xl:bottom-0.75">
+            <div className="flex flex-col left-2 sm:left-4 xl:left-18.95 items-center absolute translate-y-full bottom-0 xl:bottom-0.75">
               <div className="w-2.5 h-15.22 sm:h-17.9 relative xl:h-20.75">
                 <Image src="/svg/line.svg" fill alt="line" />
               </div>

@@ -1,5 +1,5 @@
-import Anchor from "../ui/Anchor";
-import { Paragraph } from "../ui/Typography";
+import Anchor from "@/components/ui/Anchor";
+import { Paragraph } from "@/components/ui/Typography";
 
 export default function Description() {
   return (
