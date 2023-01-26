@@ -4,7 +4,7 @@ import { Paragraph } from "@/components/ui/Typography";
 export default function Description() {
   return (
     <div className="font-variation grid xl:grid-cols-2">
-      <div className="col-start-2 flex flex-col gap-5 md:gap-10 pl-4 pr-6 mt-36.5 md:mt-45.75 xl:mt-20 xl:max-w-100 md:px-10 xl:px-0 xl:pl-5">
+      <div className="col-start-2 flex flex-col gap-5 sm:gap-10 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 xl:max-w-104.75 sm:px-10 xl:px-0 xl:pl-5">
         <Paragraph>
           <span className="block">The music industry is broken.</span> Creating cultural value does not provide
           a livable income for 90+% of artists. We need to rethink the value and
