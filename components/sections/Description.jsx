@@ -1,4 +1,4 @@
-import Anchor from "@/components/ui/Anchor";
+import Link from "next/link";
 import { Paragraph } from "@/components/ui/Typography";
 
 export default function Description() {
@@ -6,13 +6,14 @@ export default function Description() {
     <div className="font-variation grid xl:grid-cols-2">
       <div className="col-start-2 flex flex-col gap-5 sm:gap-10 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 xl:max-w-104.75 sm:px-10 xl:px-0 xl:pl-5">
         <Paragraph>
-          <span className="block">The music industry is broken.</span> Creating cultural value does not provide
-          a livable income for 90+% of artists. We need to rethink the value and
-          distribution of creative work. We need new, transparent, flexible
-          economic models. Even wants to tackle the problem of financial
-          inequity within the music industry. Even is an open protocol that
-          encourages group collaboration, connects niche artists to
-          micro-communities, and supports culture through productive exchanges.
+          <span className="block">The music industry is broken.</span> Creating
+          cultural value does not provide a livable income for 90+% of artists.
+          We need to rethink the value and distribution of creative work. We
+          need new, transparent, flexible economic models. Even wants to tackle
+          the problem of financial inequity within the music industry. Even is
+          an open protocol that encourages group collaboration, connects niche
+          artists to micro-communities, and supports culture through productive
+          exchanges.
         </Paragraph>
         <Paragraph>
           Each artist has an ideal way to fund their practice, involve and
@@ -25,7 +26,14 @@ export default function Description() {
           want artists to be able to create their ideals and own their success,
           with ease.
         </Paragraph>
-        <Anchor url="https://evenmusic.co/">Litepaper</Anchor>
+        {/* <Anchor url="https://evenmusic.co/">Litepaper</Anchor> */}
+        <Link
+          href="https://evenmusic.co/"
+          target="_blank"
+          className="inline-block font-medium text-sm -tracking-tight leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
+        >
+          Litepaper
+        </Link>
       </div>
     </div>
   );
