@@ -26,7 +26,6 @@ export default function Description() {
           want artists to be able to create their ideals and own their success,
           with ease.
         </Paragraph>
-        {/* <Anchor url="https://evenmusic.co/">Litepaper</Anchor> */}
         <Link
           href="https://evenmusic.co/"
           target="_blank"
