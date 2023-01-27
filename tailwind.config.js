@@ -19,12 +19,13 @@ module.exports = {
         secondary: "#9361FF", // even purple
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans], //add Inter font-family from google fonts as default
+        sans: ["var(--font-inter)", ...fontFamily.sans], // add Inter font-family from google fonts as default
       },
       fontSize: {
-        xxs: "0.625rem", //10px
+        xxs: "0.625rem", // 10px
         "1xl": "1.4375rem", // 23px
         "3.5xl": "2rem", // 32px
+
       },
       letterSpacing: {
         tight: "0.025rem", // 0.4px
@@ -33,17 +34,18 @@ module.exports = {
         thin: "0.1125rem", // 1.8px
       },
       lineHeight: {
-        3.75: "0.9375rem", // 15px
-        4.25: "1.0625rem", // 17px
-        4.75: "1.1875rem", // 19px
-        5.5: "1.375rem", // 22px
+        3.63: "0.9075rem", // 14.52px
+        3.75: "0.9375", // 15px
+        4.25: "1.0588rem", // 16.94px
+        4.75: "1.21rem", // 19.36px
+        5.5: "1.3613rem", // 21.78px
       },
       maxWidth: {
         33: "8.25rem", // 132px
         38.75: "9.6875rem", // 155px
         39.5: "9.875rem", // 158px
         48.25: "12.0625rem", // 193px
-        48.5: "12.125rem", //194px
+        48.5: "12.125rem", // 194px
         54.75: "13.6875rem", // 219px
         75: "18.75rem", // 300px
         87.5: "21.875rem", // 350px
