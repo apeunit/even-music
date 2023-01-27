@@ -4,7 +4,7 @@ import Anchor from "@/components/ui/Anchor";
 export default function Footer() {
   return (
     <div className="grid mt-20 font-variation sm:grid-cols-2 sm:mt-25">
-      <div className="flex">
+      <div className="grid grid-cols-2 sm:flex">
         <div className="flex-1 xl:max-w-75 pt-0.5 sm:pt-0.75 xl:pt-0 pl-0 xl:pl-10.5 xl:pr-16 pr-0 sm:pr-2">
           <div className="max-w-none sm:max-w-48.5 xl:w-full">
             <h5 className="font-variation-secondary block font-semibold sm:text-sm text-xs -tracking-tight leading-3.75 sm:leading-4.25 text-black">
@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="grid grid-cols-2 sm:flex">
         <div className="flex-1 sm:border-l-0.5 border-black pt-5 pb-5 sm:pb-10 sm:pt-0.75 xl:pt-0 pr-0 sm:pr-2.5 pl-0 sm:pl-2.5 xl:pl-5">
           <div className="max-w-39.5 sm:max-w-54.75">
             <Span>
