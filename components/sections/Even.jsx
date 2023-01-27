@@ -7,10 +7,10 @@ export default function Even() {
       <div className="relative w-full aspect-logo">
         <Image src="/svg/even.svg" fill alt="logo" priority />
       </div>
-      <div className="max-w-87.5 sm:max-w-113.05 mx-auto sm:mx-0 xl:max-w-159.5 mt-10 relative">
+      <div className="max-w-87.5 sm:max-w-113.05 mx-auto sm:mx-0 xl:max-w-159.5 mt-10 relative pr-4 sm:pr-0">
         <div className="font-medium text-lg sm:text-1xl xl:text-3.5xl -tracking-thinnest sm:-tracking-thinner xl:-tracking-thin leading-5.5 sm:leading-7 xl:leading-10 text-primary">
           A decentralised protocol for music artists, fans and&nbsp;
-          <div className="text-secondary underline  relative inline-block">
+          <div className="text-secondary underline relative inline-block">
             <span className="inline-block w-max underline decoration-4 underline-offset-2">
               collective forms
             </span>
