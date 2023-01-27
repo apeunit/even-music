@@ -25,7 +25,6 @@ module.exports = {
         xxs: "0.625rem", // 10px
         "1xl": "1.4375rem", // 23px
         "3.5xl": "2rem", // 32px
-
       },
       letterSpacing: {
         tight: "0.025rem", // 0.4px
@@ -35,10 +34,10 @@ module.exports = {
       },
       lineHeight: {
         3.63: "0.9075rem", // 14.52px
-        3.75: "0.9375", // 15px
-        4.25: "1.0588rem", // 16.94px
+        3.75: "0.9375rem", // 15px
+        4.25: "1.05875rem", // 16.94px
         4.75: "1.21rem", // 19.36px
-        5.5: "1.3613rem", // 21.78px
+        5.5: "1.36125rem", // 21.78px
       },
       maxWidth: {
         33: "8.25rem", // 132px
