@@ -8,7 +8,7 @@ export default function Even() {
         <Image src="/svg/even.svg" fill alt="logo" priority />
       </div>
       <div className="max-w-87.5 sm:max-w-113.05 mx-auto sm:mx-0 xl:max-w-159.5 mt-10 relative pr-4 sm:pr-0">
-        <div className="font-medium text-lg sm:text-1xl xl:text-3.5xl -tracking-thinnest sm:-tracking-thinner xl:-tracking-thin leading-5.5 sm:leading-6.96 xl:leading-10 text-primary">
+        <div className="font-normal text-lg sm:text-1xl xl:text-3.5xl -tracking-thinnest sm:-tracking-thinner xl:-tracking-thin leading-5.5 sm:leading-6.96 xl:leading-10 text-primary">
           A decentralised protocol for music artists, fans and&nbsp;
           <div className="relative inline-block underline text-secondary">
             <span className="inline-block underline w-max decoration-4 underline-offset-2">
