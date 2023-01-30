@@ -27,7 +27,7 @@ export default function Description() {
           with ease.
         </Paragraph>
         <Link
-          href="https://evenmusic.co/"
+          href="/pdfs/even-litepaper.pdf"
           target="_blank"
           className="inline-block font-normal text-sm -tracking-tight leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
         >
