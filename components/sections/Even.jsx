@@ -21,7 +21,7 @@ export default function Even() {
               <div className="mx-auto min-w-45.25 sm:min-w-53.25 text-center font-variation">
                 <Span secondary>
                   The immaterial and collaborative nature of music productions
-                  need flexible models.
+                  need flexible models
                 </Span>
               </div>
             </div>
