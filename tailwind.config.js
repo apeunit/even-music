@@ -59,6 +59,7 @@ module.exports = {
         53.25: "13.3125rem", // 213px
       },
       spacing: {
+        0.25: "0.0625rem", // 1px
         0.75: "0.1875rem", // 3px
         2.5: "0.625rem", // 10px
         4.25: "1.0625rem", // 17px
@@ -79,7 +80,12 @@ module.exports = {
         53.25: "13.3125rem", // 213px
         64.5: "16.125rem", // 258px
       },
+      textDecorationThickness: {
+        0.475: "0.11875rem", // 1.9px
+        0.8: "0.2rem", // 3.2px
+      },
       textUnderlineOffset: {
+        1.25: "0.3125rem", // 5px
         3: "0.1563rem", // 2.5px
       },
     },
