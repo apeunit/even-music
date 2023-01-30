@@ -29,7 +29,7 @@ export default function Description() {
         <Link
           href="https://evenmusic.co/"
           target="_blank"
-          className="inline-block font-medium text-sm -tracking-tight leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
+          className="inline-block font-normal text-sm -tracking-tight leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
         >
           Litepaper
         </Link>
