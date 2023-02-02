@@ -13,7 +13,7 @@ export default function Description() {
           the problem of financial inequity within the music industry. Even is
           an open protocol that encourages group collaboration, connects niche
           artists to micro-communities, and supports culture through productive
-          exchanges.
+          exchanges. Edited By Noella
         </Paragraph>
         <Paragraph>
           Each artist has an ideal way to fund their practice, involve and
