@@ -24,7 +24,7 @@ export default function Description() {
           to easily compose custom economic mechanisms that give them complete
           control over how they share and distribute the value of their work. We
           want artists to be able to create their ideals and own their success,
-          with ease. Edited by Izzeddin on dev
+          with ease. Edited by Izzeddin, hotfix on stage
         </Paragraph>
         <Link
           href="/pdfs/even-litepaper.pdf"
