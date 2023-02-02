@@ -29,7 +29,7 @@ export default function Footer() {
             <Span>
               We are developers, designers, researchers and music enthusiast
               interested in building decentralised systems, fostering open
-              knowledge and giving people tools to better coordinate. Eric Nkaka HOTFIX ADDED
+              knowledge and giving people tools to better coordinate.
             </Span>
           </div>
         </div>

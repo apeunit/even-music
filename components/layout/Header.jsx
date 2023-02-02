@@ -12,7 +12,7 @@ export default function Header() {
                 Even wants to fundamentally change the way artists and their
                 communities interact. Even aims to reshape the future of music
                 through deeper collaboration of all participants in the
-                ecosystem.Edited by Odile, hot fix on stage.
+                ecosystem.
               </Span>
             </div>
           </div>
