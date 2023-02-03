@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="grid grid-cols-2 sm:flex">
-        <div className="xl:max-w-69.75 flex-1 sm:border-l-0.5 border-black pt-5 pb-5 sm:pb-10 sm:pt-0.75 xl:pt-0 pr-0 sm:pr-2.5 pl-0 sm:pl-2.5 xl:pl-5">
+        <div className="xl:max-w-69.75 flex-1 sm:border-l-0.5 border-black pt-5 pb-5 sm:pb-10 sm:pt-0.75 xl:pt-0 pr-1 xs:pr-0 sm:pr-2.5 pl-0 sm:pl-2.5 xl:pl-5">
           <div className="max-w-39.5 sm:max-w-54.75">
             <Span>
               We are developers, designers, researchers and music enthusiast
