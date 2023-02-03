@@ -61,7 +61,7 @@ module.exports = {
         53.25: "13.3125rem", // 213px
       },
       screens: {
-        xs: "360px", // 360px
+        xs: "22.5rem", // 360px
       },
       spacing: {
         0.25: "0.0625rem", // 1px
