@@ -1,4 +1,7 @@
 @tailwind base;
+html {
+    @apply md:text-lg lg:text-xl xl:text-0.8xl;
+}
 @tailwind components;
 .font-variation {
     font-variation-settings: "wght" 450;
