@@ -1,12 +1,17 @@
 @tailwind base;
-html {
-    @apply md:text-lg lg:text-xl xl:text-0.8xl;
-}
 @tailwind components;
-.font-variation {
-    font-variation-settings: "wght" 450;
-}
-.font-variation-secondary{
-    font-variation-settings: "wght" 600;
-}
 @tailwind utilities;
+
+@layer base {
+    html {
+        @apply md:text-lg lg:text-xl xl:text-0.8xl;
+    }
+}
+@layer components {
+    .font-variation {
+        font-variation-settings: "wght" 450;
+    }
+    .font-variation-secondary{
+        font-variation-settings: "wght" 600;
+    }
+}
