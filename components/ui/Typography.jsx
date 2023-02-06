@@ -8,7 +8,7 @@ export function Heading({ children }) {
 
 export function Paragraph({ children }) {
   return (
-    <p className="text-sm font-normal -tracking-tight sm:text-base xl:text-lg sm:-tracking-thinnest leading-4.25 sm:leading-4.75 xl:leading-5.5 text-black">
+    <p className="text-sm font-normal -tracking-tight sm:text-base xl:text-lg sm:-tracking-thinnest leading-4.25 sm:leading-4.75 xl:leading-6 text-black">
       {children}
     </p>
   );
