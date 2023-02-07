@@ -33,7 +33,7 @@ export default function Footer() {
             </Span>
           </div>
         </div>
-        <div className="flex-1 sm:flex-initial xl:flex-1- flex flex-col justify-between border-l-0.5 border-black pl-5 pb-5 pt-0 sm:pt-0.5 xl:pt-0 sm:pl-2.5 xl:pl-5 sm:pb-10.75 xl:pb-10 pr-0 sm:pr-9.75 xl:pr-0">
+        <div className="flex-1 sm:flex-initial flex flex-col justify-between border-l-0.5 border-black pl-5 pb-5 pt-0 sm:pt-0.5 xl:pt-0 sm:pl-2.5 xl:pl-5 sm:pb-10.75 xl:pb-10 pr-0 sm:pr-9.75 xl:pr-0">
           <Anchor url="mailto:even@apeunit.com">Get In Touch</Anchor>
           <div>
             <span className="block font-normal leading-3.025 text-black text-2.5 md:-tracking-0.11 lg:-tracking-0.125 xl:-tracking-0.13 md:leading-3.4 lg:leading-3.78 xl:leading-4.15 md:text-2.81 lg:text-3.12 xl:text-3.43 -tracking-0.1">
