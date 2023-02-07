@@ -134,7 +134,8 @@ module.exports = {
         53.25: "13.3125rem", // 213px
         64.5: "16.125rem", // 258px,
         24.4:"6.1rem", //97.6rem
-        1.48: "0.37rem"//5.92px
+        1.48: "0.37rem",//5.92px
+        5.6: "1.4rem"  //22.4
       },
       textDecorationThickness: {
         0.475: "0.11875rem", // 1.9px
