@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
-.font-variation {
-    font-variation-settings: "wght" 450;
-}
-.font-variation-secondary{
-    font-variation-settings: "wght" 600;
-}
 @tailwind utilities;
+
+@layer components {
+    .font-variation {
+        font-variation-settings: "wght" 450;
+    }
+    .font-variation-secondary{
+        font-variation-settings: "wght" 600;
+    }
+}
