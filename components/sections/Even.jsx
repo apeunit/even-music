@@ -14,7 +14,7 @@ export default function Even() {
             <span className="inline-block w-max underline decoration-0.475 sm:decoration-0.8 underline-offset-2 sm:underline-offset-1.25 xl:underline-offset-2">
               collective forms
             </span>
-            <div className="flex flex-col left-2 sm:left-4 xl:left-18.95 items-center absolute translate-y-full bottom-0.25 sm:-bottom-0.25 xl:bottom-1">
+            <div className="flex flex-col left-2 sm:left-5.6 xl:left-24.4 items-center absolute translate-y-full bottom-0.25 sm:-bottom-0.25 xl:bottom-[0.60rem]">
               <div className="w-2.5 h-15.22 sm:h-17.9 relative xl:h-20.75">
                 <Image src="/svg/line.svg" fill alt="line" />
               </div>
