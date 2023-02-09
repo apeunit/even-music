@@ -29,7 +29,7 @@ export default function Description() {
         <Link
           href="/pdfs/even-litepaper.pdf"
           target="_blank"
-          className="inline-block font-normal text-sm md:text-3.93 lg:text-4.37 xl:text-4.81 -tracking-0.1 leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
+          className="inline-block font-normal text-sm md:text-3.93 lg:text-4.37 xl:text-4.81 -tracking-0.1 leading-4.25 text-primary underline underline-offset-3 hover:text-secondary"
         >
           Litepaper
         </Link>
