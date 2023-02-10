@@ -3,7 +3,7 @@ import { Paragraph } from "@/components/ui/Typography";
 
 export default function Description() {
   return (
-    <div className="font-variation grid xl:grid-cols-2">
+    <div className="grid font-variation xl:grid-cols-2">
       <div className="col-start-2 flex flex-col gap-5 sm:gap-10 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 xl:max-w-144.03 sm:px-10 xl:px-0 xl:pl-5">
         <Paragraph>
           <span className="block">The music industry is broken.</span> Creating
@@ -29,7 +29,7 @@ export default function Description() {
         <Link
           href="/pdfs/even-litepaper.pdf"
           target="_blank"
-          className="inline-block font-normal text-sm md:text-3.93 lg:text-4.37 xl:text-4.81 -tracking-0.1 leading-4.25 text-black underline underline-offset-3 hover:text-secondary"
+          className="inline-block font-normal text-sm md:text-3.93 lg:text-4.37 xl:text-4.81 -tracking-0.1 leading-4.25 text-primary underline underline-offset-3 hover:text-secondary text-opacity-90"
         >
           Litepaper
         </Link>
