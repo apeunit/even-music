@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 const useScale = () => {
   const [width, setWidth] = useState(0);
@@ -6,7 +6,7 @@ const useScale = () => {
   if (scale > 1.5) {
     scale = 1.5;
   }
-  useEffect(() => {
+  useLayoutEffect(() => {
     setWidth(window.innerWidth);
     const handleWidth = () => {
       setWidth(window.innerWidth);
