@@ -36,6 +36,8 @@ module.exports = {
         7.18: "1.796875rem", // 28.75px
         8: "2rem", // 32px
         11: "2.75rem", // 44px
+        sm: '0.875rem', // 14px
+        base: '1rem', // 16px
       },
       letterSpacing: {
         0.1: "0.025rem", // 0.4px
@@ -69,6 +71,7 @@ module.exports = {
         8.25: "2.0625rem", // 33px
         8.7: "2.175rem", // 34.8px
         13.75: "3.4375rem", // 55px
+        "0.30": "1.21", // 1.21 ratio
       },
       maxWidth: {
         33: "8.25rem", // 132px
