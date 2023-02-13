@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useWidth = () => {
+const useScale = () => {
   const [width, setWidth] = useState(0);
   let scale =  width / 1024;
   if (scale > 1.40625) {
@@ -18,4 +18,4 @@ const useWidth = () => {
   }, []);
   return scale;
 }
-export default useWidth;
+export default useScale;

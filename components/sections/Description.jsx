@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { Paragraph } from "@/components/ui/Typography";
+import useScale from "@/utils/useScale";
 
 export default function Description() {
+  const scale = useScale()
   return (
     <div className="grid font-variation xl:grid-cols-2">
       <div className="col-start-2 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 sm:px-10 xl:px-0 xl:pl-5">
@@ -30,7 +32,8 @@ export default function Description() {
           <Link
             href="/pdfs/even-litepaper.pdf"
             target="_blank"
-            className="inline-block font-normal text-sm md:text-3.93 lg:text-4.37 xl:text-4.81 -tracking-0.1 leading-4.25 text-primary underline underline-offset-3 hover:text-secondary text-opacity-90"
+            className="inline-block font-normal text-sm leading-0.30 -tracking-0.1 text-primary underline underline-offset-3 hover:text-secondary text-opacity-95"
+            style={scale > 1 ? {fontSize: `${0.875 * scale}rem`, letterSpacing: `${-0.025 * scale}rem`} : null}
           >
             Litepaper
           </Link>
