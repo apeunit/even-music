@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 const useScale = () => {
   const [width, setWidth] = useState(0);
   let scale =  width / 1024;
-  if (scale > 1.45625) {
-    scale = 1.45625;
+  if (scale > 1.5) {
+    scale = 1.5;
   }
   useEffect(() => {
     setWidth(window.innerWidth);
