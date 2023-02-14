@@ -1,12 +1,12 @@
-import { useEffect,useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const useScale = () => {
   const [width, setWidth] = useState(0);
-  let scale =  width ? width / 1024 : 1;
+  let scale = width ? width / 1024 : 1;
   if (scale > 1.5) {
     scale = 1.5;
   }
-  useLayoutEffect(() => {
+  useEffect(() => {
     setWidth(window.innerWidth);
     const handleWidth = () => {
       setWidth(window.innerWidth);
@@ -16,6 +16,6 @@ const useScale = () => {
       window.removeEventListener("resize", handleWidth);
     };
   }, []);
-  return {scale, width};
-}
+  return { scale, width };
+};
 export default useScale;
