@@ -1,7 +1,11 @@
 export default function Wrapper({ children }) {
   return (
     <div className="px-5 sm:px-10 xl:px-20">
-      <div className="max-w-7xl mx-auto">{children}</div>
+      <div className="mx-auto max-w-7xl font-variation">
+        <div>
+          <div>{children}</div>
+        </div>
+      </div>
     </div>
   );
 }

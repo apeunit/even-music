@@ -4,9 +4,6 @@
 
 @layer components {
     .font-variation {
-        font-variation-settings: "wght" 450;
-    }
-    .font-variation-secondary{
-        font-variation-settings: "wght" 600;
+        font-feature-settings: "liga" 0, "rlig" 0, "dlig" 0, "hlig" 0, "smcp" 0;
     }
 }
