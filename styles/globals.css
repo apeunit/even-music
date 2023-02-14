@@ -6,7 +6,4 @@
     .font-variation {
         font-feature-settings: "liga" 0, "rlig" 0, "dlig" 0, "hlig" 0, "smcp" 0;
     }
-    .font-variation-secondary{
-        font-feature-settings: "liga" 0, "rlig" 0, "dlig" 0, "hlig" 0, "smcp" 0;
-    }
 }
