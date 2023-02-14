@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Even</title>
       </Head>
-      {width && (
+      {width !== 0 && (
         <Wrapper>
           <Header />
           <Even />
