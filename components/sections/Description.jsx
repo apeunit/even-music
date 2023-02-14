@@ -5,7 +5,7 @@ import useScale from "@/utils/useScale";
 export default function Description() {
   const { scale } = useScale();
   return (
-    <div className="grid  xl:grid-cols-2">
+    <div className="grid xl:grid-cols-2">
       <div className="col-start-2 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 sm:px-10 xl:px-0 xl:pl-5">
         <div className="xl:max-w-134.8 2xl:max-w-150 flex flex-col gap-5 sm:gap-10">
           <Paragraph>

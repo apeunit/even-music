@@ -18,7 +18,7 @@ export default function Even() {
               <div className="w-2.5 h-15.22 sm:h-17.9 relative xl:h-20.75">
                 <Image src="/svg/line.svg" fill alt="line" />
               </div>
-              <div className="mx-auto min-w-45.25 sm:min-w-53.25 md:min-w-59.9 lg:min-w-66.56 xl:min-w-73.19 text-center ">
+              <div className="mx-auto min-w-45.25 sm:min-w-53.25 md:min-w-59.9 lg:min-w-66.56 xl:min-w-73.19 text-center">
                 <Span secondary>
                   The immaterial and collaborative nature of music productions
                   need flexible models
