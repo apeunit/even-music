@@ -15,8 +15,9 @@ module.exports = {
         0.5: "0.03125rem", // 0.5px
       },
       colors: {
-        primary: "#111827", // dark gray
+        primary: "#111827", // dark grey
         secondary: "#9361FF", // even purple
+        lightGrey:  "#B8B8B8", // light grey
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans], // add Inter font-family from google fonts as default
