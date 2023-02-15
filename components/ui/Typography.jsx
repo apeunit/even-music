@@ -11,13 +11,13 @@ export function Paragraph({ children }) {
   const { scale } = useScale();
   return (
     <p
-      className="text-sm sm:text-base -tracking-0.25 leading-0.30 text-primary opacity-95"
+      className="text-sm sm:text-base -tracking-0.25 leading-0.3 text-primary opacity-95"
       style={
         scale > 1
           ? {
-              fontSize: `${1.125 * scale}rem`,
-              letterSpacing: `${-0.0625 * scale}rem`,
-            }
+            fontSize: `${1.125 * scale}rem`,
+            letterSpacing: `${-0.0625 * scale}rem`,
+          }
           : null
       }
     >
@@ -30,15 +30,14 @@ export function Span({ children, secondary }) {
   const { scale } = useScale();
   return (
     <span
-      className={`block font-normal sm:text-sm text-xs -tracking-0.1 leading-0.30 text-opacity-95 ${
-        secondary ? "text-secondary" : "text-primary"
-      }`}
+      className={`block font-normal sm:text-sm text-xs -tracking-0.1 leading-0.3 text-opacity-95 ${secondary ? "text-secondary" : "text-primary"
+        }`}
       style={
         scale > 1
           ? {
-              fontSize: `${0.875 * scale}rem`,
-              letterSpacing: `${-0.025 * scale}rem`,
-            }
+            fontSize: `${0.875 * scale}rem`,
+            letterSpacing: `${-0.025 * scale}rem`,
+          }
           : null
       }
     >
