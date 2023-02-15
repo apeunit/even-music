@@ -47,7 +47,7 @@ export default function Footer() {
       </div>
       <div className="grid grid-cols-2 sm:flex 1.5lg:grid xl:flex">
         <div className="flex-1 lg:flex-initial xl:pr-10 sm:border-l-0.5 border-black pt-5 pb-5 sm:pb-10 sm:pt-0.75 xl:pt-0 pr-1 xs:pr-0 sm:pr-2.5 pl-0 sm:pl-2.5 xl:pl-5">
-          <div className="max-w-39.5 sm:max-w-54.75 md:max-w-61.59 lg:max-w-68.34 lg:pr-1.5 xl:max-w-[22rem] xl:w-full">
+          <div className="max-w-48.25 sm:max-w-[20rem] md:max-w-[14.1rem] lg:max-w-[16.8rem] xl:max-w-[20rem] lg:pr-1.5 xl:w-full">
             <Span>
               We are developers, designers, researchers and music enthusiast
               interested in building decentralised systems, fostering open
