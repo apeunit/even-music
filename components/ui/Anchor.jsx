@@ -7,7 +7,7 @@ export default function Anchor({ children, url }) {
     <Link
       href={url}
       target="_blank"
-      className="inline-block font-normal sm:text-sm  text-xs -tracking-0.1 leading-0.30 text-primary underline underline-offset-3 hover:text-secondary text-opacity-95"
+      className="inline-block font-normal sm:text-sm  text-xs -tracking-0.1 leading-0.30 text-primary underline whitespace-nowrap underline-offset-3 hover:text-secondary text-opacity-95"
       style={
         scale > 1
           ? {
