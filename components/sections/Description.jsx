@@ -32,13 +32,13 @@ export default function Description() {
           <Link
             href="/pdfs/even-litepaper.pdf"
             target="_blank"
-            className="inline-block font-normal text-sm leading-0.30 -tracking-0.1 text-primary underline underline-offset-3 hover:text-secondary text-opacity-95"
+            className="inline-block font-normal text-sm leading-0.3 -tracking-0.1 text-primary underline underline-offset-0.625 hover:text-secondary text-opacity-95"
             style={
               scale > 1
                 ? {
-                    fontSize: `${0.875 * scale}rem`,
-                    letterSpacing: `${-0.025 * scale}rem`,
-                  }
+                  fontSize: `${0.875 * scale}rem`,
+                  letterSpacing: `${-0.025 * scale}rem`,
+                }
                 : null
             }
           >

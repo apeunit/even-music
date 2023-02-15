@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex flex-wrap sm:col-start-2 sm:flex-nowrap">
         <div className="flex-1 sm:flex-initial">
           <div className="sm:border-l-0.5 border-black pt-5 pr-0.5 sm:pr-2.5 pb-4.25 sm:pl-2.5 sm:pt-10 sm:pb-0.5 xl:pl-5 xl:pr-10 xl:pb-0">
-            <div className="max-w-48.25 sm:max-w-54.75 md:max-w-61.59 lg:max-w-68.34 xl:max-w-75.28 pr-4.5 sm:pr-3">
+            <div className="max-w-48.25 sm:max-w-xs md:max-w-56 lg:max-w-67.2 xl:max-w-xs pr-4.5 sm:pr-3">
               <Span>
                 Even wants to fundamentally change the way artists and their
                 communities interact. Even aims to reshape the future of music
