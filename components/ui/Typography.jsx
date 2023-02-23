@@ -1,4 +1,4 @@
-import useScale from "@/utils/useScale";
+import useScale from "@/hooks/useScale";
 export function Heading({ children }) {
   return (
     <h1 className="font-normal text-lg sm:text-5.75 xl:text-8 -tracking-0.25 sm:-tracking-0.34 xl:-tracking-0.45 leading-5.5 sm:leading-7 xl:leading-10 text-primary text-opacity-90">

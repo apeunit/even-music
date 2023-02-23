@@ -1,5 +1,5 @@
 import Link from "next/link";
-import useScale from "@/utils/useScale";
+import useScale from "@/hooks/useScale";
 
 export default function Anchor({ children, url }) {
   const { scale } = useScale()
