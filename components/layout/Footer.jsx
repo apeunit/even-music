@@ -1,6 +1,6 @@
 import { Span } from "@/components/ui/Typography";
 import Anchor from "@/components/ui/Anchor";
-import useScale from "@/utils/useScale";
+import useScale from "@/hooks/useScale";
 
 export default function Footer() {
   const { scale } = useScale();

@@ -4,7 +4,7 @@ import Header from "@/components/layout/Header";
 import Even from "@/components/sections/Even";
 import Head from "next/head";
 import Footer from "@/components/layout/Footer";
-import useScale from "@/utils/useScale";
+import useScale from "@/hooks/useScale";
 
 export default function Home() {
   const { width } = useScale();

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Paragraph } from "@/components/ui/Typography";
-import useScale from "@/utils/useScale";
+import useScale from "@/hooks/useScale";
 
 export default function Description() {
   const { scale } = useScale();
