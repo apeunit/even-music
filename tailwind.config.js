@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       aspectRatio: {
-        logo: "60/23",
+        "60/23": "60/23",
       },
       borderWidth: {
         0.5: "0.03125rem", 
