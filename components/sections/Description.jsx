@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { Paragraph } from "@/components/ui/Typography";
 import useScale from "@/hooks/useScale";
-
+import Anchor from "@/components/ui/Anchor";
 export default function Description() {
   const { scale } = useScale();
   return (
@@ -29,21 +28,9 @@ export default function Description() {
             value of their work. We want artists to be able to create their
             ideals and own their success, with ease.
           </Paragraph>
-          <Link
-            href="/pdfs/even-litepaper.pdf"
-            target="_blank"
-            className="inline-block font-normal text-sm leading-0.3 -tracking-0.1 text-primary underline underline-offset-0.625 hover:text-secondary text-opacity-95"
-            style={
-              scale > 1
-                ? {
-                  fontSize: `${0.875 * scale}rem`,
-                  letterSpacing: `${-0.025 * scale}rem`,
-                }
-                : null
-            }
-          >
+          <Anchor url="/pdfs/even-litepaper.pdf" secondary={true}>
             Litepaper
-          </Link>
+          </Anchor>
         </div>
       </div>
     </div>
