@@ -27,7 +27,7 @@ all participants in the ecosystem.
 
 ### Installation
 
-run the development server:
+Run the development server:
 
 1. Clone the project
 
