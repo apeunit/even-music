@@ -1,6 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/51261911/214019152-c2178165-9316-4bf3-8c5f-98123733b922.svg)
 
-# evenmusic
+# Evenmusic
 
 A decentralised protocol for music artists, fans and collective forms of value exchange
 
