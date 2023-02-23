@@ -7,13 +7,13 @@ import Footer from "@/components/layout/Footer";
 import useScale from "@/hooks/useScale";
 
 export default function Home() {
-  const { width } = useScale();
+  const { windowWidth } = useScale();
   return (
     <>
       <Head>
         <title>Even</title>
       </Head>
-      {width !== 0 && (
+      {windowWidth !== 0 && (
         <Wrapper>
           <Header />
           <Even />
