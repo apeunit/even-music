@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Span } from "@/components/ui/Typography";
+import SmallText from "../ui/typography/SmallText";
 
 export default function Even() {
   return (
@@ -19,10 +19,10 @@ export default function Even() {
                 <Image src="/svg/line.svg" fill alt="line" />
               </div>
               <div className="mx-auto xl:bg-white min-w-45.25 sm:min-w-53.25 md:min-w-59.9 lg:min-w-64 xl:min-w-80 text-center">
-                <Span secondary>
+                <SmallText secondary>
                   The immaterial and collaborative nature of music productions
                   need flexible models
-                </Span>
+                </SmallText>
               </div>
             </div>
           </div>

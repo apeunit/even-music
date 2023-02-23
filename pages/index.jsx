@@ -1,4 +1,4 @@
-import Wrapper from "@/components/wrapper/Wrapper";
+import MainWrapper from "@/components/wrappers/MainWrapper";
 import Description from "@/components/sections/Description";
 import Header from "@/components/layout/Header";
 import Even from "@/components/sections/Even";
@@ -14,12 +14,12 @@ export default function Home() {
         <title>Even</title>
       </Head>
       {windowWidth !== 0 && (
-        <Wrapper>
+        <MainWrapper>
           <Header />
           <Even />
           <Description />
           <Footer />
-        </Wrapper>
+        </MainWrapper>
       )}
     </>
   );
