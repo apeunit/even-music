@@ -1,4 +1,5 @@
 import useScale from "@/hooks/useScale";
+import PropTypes from "prop-types";
 
 export default function MediumText({ children }) {
     const { scale } = useScale();

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function MainWrapper({ children }) {
   return (
     <div className="px-5 sm:px-10 xl:px-20 selection:bg-lightGrey">
@@ -6,6 +8,6 @@ export default function MainWrapper({ children }) {
   );
 }
 
-CustomLink.propTypes = {
+MainWrapper.propTypes = {
   children: PropTypes.node.isRequired,
 };
