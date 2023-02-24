@@ -1,5 +1,5 @@
-import SmallText from "../ui/typography/SmallText";
-import CustomLink from "../ui/CustomLink";
+import SmallText from "@/components/ui/typography/SmallText";
+import CustomLink from "@/components/ui/CustomLink";
 
 export default function Header() {
   return (

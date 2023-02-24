@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SmallText from "../ui/typography/SmallText";
+import SmallText from "@/components/ui/typography/SmallText";
 
 export default function Even() {
   return (

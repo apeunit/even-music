@@ -1,9 +1,7 @@
-import MediumText from "../ui/typography/MediumText";
-import useScale from "@/hooks/useScale";
-import CustomLink from "../ui/CustomLink";
+import MediumText from "@/components/ui/typography/MediumText";
+import CustomLink from "@/components/ui/CustomLink";
 
 export default function Description() {
-  const { scale } = useScale();
   return (
     <div className="grid xl:grid-cols-2">
       <div className="col-start-2 pl-4 pr-6 mt-36.5 sm:mt-45.75 xl:mt-20 sm:px-10 xl:px-0 xl:pl-5">
