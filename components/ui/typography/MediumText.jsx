@@ -18,3 +18,7 @@ export default function MediumText({ children }) {
         </p>
     );
 }
+MediumText.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
+  

@@ -23,7 +23,6 @@ export default function CustomLink({ children, url, secondary = false }) {
     </Link>
   );
 }
-
 CustomLink.propTypes = {
   secondary: PropTypes.bool,
   url: PropTypes.string.isRequired,

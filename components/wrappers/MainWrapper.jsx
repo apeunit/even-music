@@ -5,3 +5,7 @@ export default function MainWrapper({ children }) {
     </div>
   );
 }
+
+CustomLink.propTypes = {
+  children: PropTypes.node.isRequired,
+};
