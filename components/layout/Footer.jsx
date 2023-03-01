@@ -4,6 +4,21 @@ import useScale from "@/hooks/useScale";
 
 export default function Footer() {
   const { scale } = useScale();
+  const smallTextStyle =
+    scale > 1
+      ? {
+          fontSize: `${0.625 * scale}rem`,
+          letterSpacing: `${-0.025 * scale}rem`,
+        }
+      : null;
+  const mediumTextStyle =
+    scale > 1
+      ? {
+          fontSize: `${0.875 * scale}rem`,
+          letterSpacing: `${-0.025 * scale}rem`,
+        }
+      : null;
+
   return (
     <div className="grid mt-20 sm:grid-cols-2 sm:mt-25">
       <div className="grid grid-cols-2 sm:flex 1.5lg:grid xl:flex 1.5xl:grid">
@@ -11,14 +26,7 @@ export default function Footer() {
           <div className="max-w-none sm:max-w-48.5 md:max-w-54.56 lg:max-w-60.62 xl:max-w-72 xl:w-full">
             <h5
               className="block font-semibold sm:text-sm text-xs -tracking-0.1 text-primary text-opacity-95 leading-0.3"
-              style={
-                scale > 1
-                  ? {
-                    fontSize: `${0.875 * scale}rem`,
-                    letterSpacing: `${-0.025 * scale}rem`,
-                  }
-                  : null
-              }
+              style={mediumTextStyle}
             >
               Even
             </h5>
@@ -30,14 +38,7 @@ export default function Footer() {
           <div className="max-w-33 sm:max-w-38.75 md:max-w-43.59 lg:max-w-48.43 xl:max-w-60">
             <h5
               className="block font-semibold sm:text-sm text-xs -tracking-0.1 text-primary text-opacity-95 leading-0.3"
-              style={
-                scale > 1
-                  ? {
-                    fontSize: `${0.875 * scale}rem`,
-                    letterSpacing: `${-0.025 * scale}rem`,
-                  }
-                  : null
-              }
+              style={mediumTextStyle}
             >
               Miguel Lizio
             </h5>
@@ -60,27 +61,13 @@ export default function Footer() {
           <div>
             <span
               className="block font-normal text-primary text-2.5 -tracking-0.1 text-opacity-95 leading-0.3"
-              style={
-                scale > 1
-                  ? {
-                    fontSize: `${0.625 * scale}rem`,
-                    letterSpacing: `${-0.025 * scale}rem`,
-                  }
-                  : null
-              }
+              style={smallTextStyle}
             >
               © 2021 Even
             </span>
             <span
               className="block font-normal text-primary text-2.5 -tracking-0.1 text-opacity-95 leading-0.3"
-              style={
-                scale > 1
-                  ? {
-                    fontSize: `${0.625 * scale}rem`,
-                    letterSpacing: `${-0.025 * scale}rem`,
-                  }
-                  : null
-              }
+              style={smallTextStyle}
             >
               All Rights Reserved.
             </span>
