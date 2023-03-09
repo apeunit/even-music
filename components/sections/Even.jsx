@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Span } from "@/components/ui/Typography";
+import SmallText from "@/components/ui/typography/SmallText";
 
 export default function Even() {
   return (
     <div>
-      <div className="relative w-full aspect-logo">
+      <div className="relative w-full aspect-60/23">
         <Image src="/svg/even.svg" fill alt="logo" priority />
       </div>
       <div className="max-w-62.5 xs:max-w-87.5 sm:max-w-113.05 md:max-w-127.18 lg:max-w-141.31 xl:max-w-219.31 mx-auto sm:mx-0 mt-10 relative pr-4 sm:pr-0">
@@ -19,10 +19,10 @@ export default function Even() {
                 <Image src="/svg/line.svg" fill alt="line" />
               </div>
               <div className="mx-auto xl:bg-white min-w-45.25 sm:min-w-53.25 md:min-w-59.9 lg:min-w-64 xl:min-w-80 text-center">
-                <Span secondary>
+                <SmallText secondary>
                   The immaterial and collaborative nature of music productions
                   need flexible models
-                </Span>
+                </SmallText>
               </div>
             </div>
           </div>
